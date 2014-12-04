@@ -1,10 +1,9 @@
 {
   "name": "vue-resize-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "'resize' event mixin for Vue.js",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/nk-components/vue-resize-mixin"
@@ -18,5 +17,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nk-components/vue-resize-mixin/issues"
+  },
+  "dependencies": {
+    "windowsill": "~1.0.6"
   }
 }
