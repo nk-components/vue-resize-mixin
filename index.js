@@ -15,8 +15,8 @@ module.exports = {
   },
 
   methods: {
-      _resize: function() {
-        this.$emit('resize', {width: resizer.width, height: resizer.height});
-      }
+    _resize: function() {
+      this.$emit('resize', {width: resizer.width, height: resizer.height});
+    }
   }
 };
