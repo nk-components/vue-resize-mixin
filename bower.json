@@ -1,0 +1,29 @@
+{
+  "name": "vue-resize-mixin",
+  "description": "'resizer' event mixin for Vue.js",
+  "main": [
+    "index.js"
+    ],
+  "dependencies": {
+    "windowsill": "~1.0.6"
+  },
+  "devDependencies": {
+  },
+  "keywords": [
+    "vue",
+    "resize",
+    "mixin"
+  ],
+  "authors": [
+    "nk-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "example",
+    "**/*.txt",
+    "README",
+    "package.json",
+    ".gitignore",
+    "bower.json"
+  ]
+}
