@@ -8,6 +8,12 @@ With [npm](http://npmjs.org) do:
 $ npm i -S vue-resize-mixin
 ```
 
+With [bower](http://bower.io/) do:
+
+```bash
+$ bower install vue-resize-mixin --save 
+```
+
 ## Usage:
 
 ```js
