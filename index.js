@@ -4,7 +4,7 @@ var windowsill = require('windowsill');
 var resizer = windowsill.resizer;
 
 module.exports = {
-  ready: function() {
+  mounted: function() {
     windowsill.enable('resizer');
     resizer.addListener(this._resize);
     this._resize();
