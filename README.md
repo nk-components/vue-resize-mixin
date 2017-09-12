@@ -1,5 +1,7 @@
 # Vue resize mixin
 
+Vue 2.0+
+
 ## Install
 
 With [npm](http://npmjs.org) do:

@@ -1,6 +1,6 @@
 {
   "name": "vue-resize-mixin",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "'resize' event mixin for Vue.js",
   "main": "index.js",
   "scripts": {},
