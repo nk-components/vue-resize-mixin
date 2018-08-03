@@ -24,12 +24,12 @@ var resizeMixin = require('vue-resize-mixin');
 var vm = new Vue({
   mixins: [resizeMixin],
 
-  events: {
-    'resize': 'onResize'
+  mounted() {
+    this.$on('resize', this.onResize)
   },
 
   methods: {
-    onResize: function(event) {
+    onResize(event) {
       var width = event.width;
       var height = event.height;
     }
@@ -38,7 +38,6 @@ var vm = new Vue({
 ```
 
 The mixin emits an internal `resize` event.
-You could also `this.$on('resize', this.onResize);`
 
 The emitted event has 2 properties, `width` and `height` (of the window).
 
